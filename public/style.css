@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
+}
+.title{
+    margin: 20px 0;
+    color: #000;
+}
+.main{
+    border: 10px solid #dddddd;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.name{
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 16px;
+    color: black;
+    background-color: rgb(171, 165, 165);
+}
+.name span{
+    color: black;
+}
+.name input{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    flex-grow: 1;
+    border: none;
+    margin: opx 12px;
+    outline: none;
+    background-color: rgb(171, 165, 165);
+}
+.msg_container{
+    display: flex;
+    flex-direction: column;
+    background: url(https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg);
+    width: 400px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.left_msg, .right_msg{
+    list-style: none;
+    padding: 8px 12px;
+    margin: 12px;
+    max-width: 250px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.left_msg{
+    border-radius: 20px 20px 20px 0px;
+    align-self: flex-start;
+    background-color: rgb(218, 211, 211);
+    box-shadow: -2px 2px 4px rgb(141, 133, 133);
+}
+.right_msg{
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+    background-color: rgb(125, 225, 125);
+    box-shadow: 2px 2px 4px rgb(141, 133, 133);
+}
+.left_msg p span, .right_msg p span{
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.feedback{
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px 16px 16px 16px;
+    color: black;
+}
+.msg_form{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    background: url(https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg);
+}
+.input_msg{
+    flex-grow: 1;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 40px;
+}
+.send_btn{
+    height: 48px;
+    font-size: 16x;
+    border: none;
+    padding: 0px 20px;
+    outline: none;
+    background: rgb(108, 192, 108);
+    border-radius: 40px;
+    cursor: pointer;
+}
+.divider{
+    height: 48px;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.total_clients{
+    margin: 20px 0;
+    color: #000;
+}
